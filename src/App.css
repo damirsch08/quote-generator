@@ -1,0 +1,54 @@
+body{
+  background-color: rgb(208, 208, 208);
+}
+
+.quote{
+  text-align: center;
+  position: relative;
+  top: 35vh;
+  font-family: Roboto;
+  font-size: 36px;
+  margin: 0 auto;
+  max-width: 90vw;
+  font-weight: 400;
+  color: rgb(33, 33, 33);
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 0 10px 1px;
+}
+
+.block{
+  display: inline-block;
+}
+
+.author{
+  text-decoration: dashed;
+  text-align: left;
+  font-style: italic;
+  font-weight: 300;
+  margin: 10px 0 0;
+}
+
+.button{
+  display: block;
+  float: inline-end;
+  background-color: rgb(226, 233, 239);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 25px;
+  margin: 10px auto;
+}
+.button:hover{
+  background-color: rgb(219, 226, 233);
+}
+.button:active{
+  background-color: rgb(150, 150, 150);
+}
+
+@media (max-width: 590px){
+  .app{
+    top: 10vh;
+    font-size: 33px;
+  }
+}
